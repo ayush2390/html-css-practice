@@ -75,8 +75,9 @@ input[type=text]:focus {
 .buttons{
   margin-top: 2%;
   margin-left: 43%;
-
+  opacity: 0.5;
 }
+
 #bt1{
   height: 35px;
 margin-right: 20px;
@@ -84,19 +85,19 @@ margin-right: 20px;
 #bt3{
   height: 35px;
 }
-#bt1:hover{
-  enabled:"";
-}
-
-#bt3:hover{
-}
 footer{
   position: fixed;
   bottom: 0;
-    background-color: #ffffff;
+    background-color: #F8F9F9 ;
     width: 100%;
-    border-top: 1px #000000 solid;
-    border-bottom: 1px #000000 solid;
+    border-top: 1px  grey solid;
+    border-bottom: 1px  grey solid;
+}
+.fot-1{
+  margin-left: 8px;
+  list-style-type: none;
+  float:left;
+  padding: 0;
 }
 .fot2 p{
   margin-left: 8px;
@@ -110,13 +111,9 @@ footer{
   margin-bottom: 8px;
   float: right;
 }
-.left-footer a{
-  padding: 8px;
+.left-footer,right footer a{
+  display: flex;
+  /*padding: 8px;
   background-color: #ffffff;
-  text-decoration: none;
-}
-.right-footer a{
-  padding: 8px;
-  background-color: #ffffff;
-  text-decoration: none;
+  text-decoration: none;*/
 }
